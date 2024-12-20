@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "pep8": "pycodestyle plate_io.py",
     "jscs": "jscs -c .jscsrc *.js",
-    "preinstall": "python3 -m venv --system-site-packages env",
+    "preinstall": "/opt/python/python3 -m venv --system-site-packages env",
     "install": "env/bin/pip3 install pi-plates"
   },
   "repository": {
